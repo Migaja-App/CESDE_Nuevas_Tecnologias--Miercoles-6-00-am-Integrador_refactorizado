@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 
-GRAFICOS_DIR = Path(__file__).resolve().parent.parent.parent.parent / "frontend" / "src" / "assets" / "python" / "graficos"
+GRAFICOS_DIR = Path(__file__).resolve().parent.parent.parent.parent / "frontend" / "src" / "assets" / "python" / "graficos" / "usuarios"
 GRAFICOS_DIR.mkdir(parents=True, exist_ok=True)
 
 def graficar_usuarios_por_rol(dataframe_limpio):
